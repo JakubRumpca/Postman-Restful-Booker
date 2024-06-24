@@ -29,7 +29,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/154",
+					"raw": "https://restful-booker.herokuapp.com/booking",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -37,8 +37,7 @@
 						"com"
 					],
 					"path": [
-						"booking",
-						"154"
+						"booking"
 					]
 				}
 			},
