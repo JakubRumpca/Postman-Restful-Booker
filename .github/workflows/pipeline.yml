@@ -1,6 +1,9 @@
 name: Run Postman Tests
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   test:
